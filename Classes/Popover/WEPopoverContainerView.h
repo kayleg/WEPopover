@@ -25,6 +25,7 @@
 	NSInteger topBgCapSize;
 	NSInteger leftBgCapSize;
 	CGFloat arrowMargin;
+    CGFloat cornerRadius;
 }
 
 @property(nonatomic, retain) NSString *bgImageName;
@@ -43,6 +44,7 @@
 @property(nonatomic, assign) NSInteger topBgCapSize;
 @property(nonatomic, assign) NSInteger leftBgCapSize;
 @property(nonatomic, assign) CGFloat arrowMargin;
+@property(nonatomic, assign) CGFloat cornerRadius;
 
 @end
 
